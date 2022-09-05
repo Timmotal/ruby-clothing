@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import HomePage from './homepage.component';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <HomePage/>
+      {
+      /* Today Sept 4th, i am forcing myself to stay awake and code
+      but then i remember vishen telling me we dont have to force things 
+      but Robert Greene says set reasonably tight deadlines
+      books are my mentors but now i'm unsure who should i follow now ?
+      time is 2350 hours */}
+
     </div>
   );
 }
